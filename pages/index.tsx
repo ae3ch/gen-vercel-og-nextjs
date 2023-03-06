@@ -19,7 +19,7 @@ export default function Page() {
           }
         />
       </Head>
-      <h1>A page with Open Graph Image.</h1>
+      <h1>nothing to see here</h1>
     </div>
   )
 }

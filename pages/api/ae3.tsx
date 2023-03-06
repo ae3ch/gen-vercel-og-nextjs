@@ -47,10 +47,10 @@ export default async function handler(req: NextRequest) {
             justifyContent: 'center',
             padding: '20px 50px',
             margin: '0 42px',
-            fontSize: 50,
+            fontSize: 70,
             fontWeight: 600,
             width: 'auto',
-            maxWidth: 700,
+            maxWidth: 1000,
             textAlign: 'center',
             backgroundColor: 'black',
             color: '#f89223',
@@ -64,12 +64,12 @@ export default async function handler(req: NextRequest) {
         <div
           style={{
             display: 'flex',
-            fontSize: 35,
+            fontSize: 45,
             fontWeight: 600,
             letterSpacing: 0,
             color: 'black',
             marginTop: 30,
-            lineHeight: 1.6,
+            lineHeight: 1.2,
           }}
         >
               <img
@@ -87,8 +87,8 @@ export default async function handler(req: NextRequest) {
       </div>
     ),
     {
-      width: 800,
-      height: 400,
+      width: 1200,
+      height: 630,
     }
   )
 }
